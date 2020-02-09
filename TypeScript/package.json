@@ -1,0 +1,27 @@
+{
+  "name": "6-minute-interview-ts",
+  "version": "1.0.0",
+  "description": "6 Minute Interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuoman/6-Minute_Interview.git"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuoman/6-Minute_Interview/issues"
+  },
+  "homepage": "https://github.com/kuoman/6-Minute_Interview#readme",
+  "devDependencies": {
+    "@types/jest": "25.1.2",
+    "jest": "25.1.0",
+    "ts-jest": "25.2.0",
+    "typescript": "3.7.5"
+  }
+}
