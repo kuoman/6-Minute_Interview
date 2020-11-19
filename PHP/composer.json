@@ -1,0 +1,26 @@
+{
+	"name" : "kuos/environment",
+	"authors" : [{
+			"name" : "Steve Kuo",
+			"email" : "steve.kuo@sincrodigital.com"
+		}
+	],
+	"require-dev" : {
+		"phpunit/phpunit" : "^7.5"
+	},
+	"scripts": {
+		"test": [
+			"phpunit"
+		]
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Kata\\" : "src"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"Kata\\Tests\\" : "tests/"
+		}
+	}
+}
